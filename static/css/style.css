@@ -1,18 +1,26 @@
-/* 
-   ESTILOS DE LA BARRA NAVEGACION 
-   */
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0b3668; 
+    background-color: #0b3668;
     padding: 15px 40px;
 }
 
 .nav-logo {
-    color: #aeb1b4;
-    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 .nav-menu {
@@ -38,7 +46,8 @@
     border-radius: 20px;
 }
 
-/* Estilos para el boton de las rayitas */
+/* Botón hamburguesa */
+
 .icono-menu {
     display: flex;
     flex-direction: column;
